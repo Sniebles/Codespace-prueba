@@ -1,4 +1,5 @@
 {
+  "name":"EC2 Performance lab",
   "image":"mcr.microsoft.com/devcontainers/base:noble",
   "features": {
     "ghcr.io/devcontainers/features/python:1":{
