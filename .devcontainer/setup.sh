@@ -12,8 +12,8 @@ sudo apt install -y \
 sudo sysctl -w kernel.perf_event_paranoid=-1
 
 # Configurar perf
-sudo In -sf\
-  /usr/lib/linux-tools-6.8.0-139/perf\
+sudo ln -sf\
+  /usr/lib/linux-tools-6.8.0-139/perf \
   /usr/local/bin/perf
 
 # Paquetes Python
