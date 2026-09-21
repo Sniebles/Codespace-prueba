@@ -6,5 +6,5 @@
       "version":"3.12"
     }
   },
-  "postCreateCommand" : "bash .devcontainer/setup.h"
+  "postCreateCommand" : "bash .devcontainer/setup.sh"
 }
